@@ -1,11 +1,16 @@
+
 # Welcome!
 
 ## 📝 Instructions:
 
-1. Run the following command on your terminal to install the numpy package:
+1. Run the following command to create a new virtual environment with Python 3 on it:
 
 ```bash
-$ pip install numpy
+$ pipenv install --python 3
 ```
 
-2. Using the Built-in functions you learned about in the previous lesson, create a 4 x 4 ndarray that only contains consecutive even numbers from 2 to 32 (inclusive)
+2. Run the following command on your terminal to install the numpy package:
+
+```bash
+$ pipenv install numpy
+```

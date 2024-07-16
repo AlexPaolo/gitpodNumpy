@@ -1,4 +1,8 @@
-import toml, pytest
+import toml, pytest, os
+
+@pytest.mark.it("Pipfile must exist")
+def test_pipfile_exists():
+  assert os.path.isfile("Pipfile")
 
 @pytest.mark.it("numpy must exist on the Pipfile dependency [packages]")
 def test_pipfile_contains_flask():
